@@ -6,25 +6,19 @@ using System.Web.Mvc;
 
 namespace ToopHouse.Controllers
 {
-    public class HomeController : Controller
+    public class RentingController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /Renting/
 
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Calendar()
         {
-            return View();
+            return View("Index");
         }
-
-        public ActionResult HomeHeader()
-        {
-            return View("_HomeHeader");
-        }
-
     }
 }

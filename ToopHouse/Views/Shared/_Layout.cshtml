@@ -1,0 +1,20 @@
+﻿<link rel="stylesheet" type="text/css" href="../../Content/StyleSheet/master-pages.css" />
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+<div>
+    @RenderPage("~/Views/Shared/_Header.cshtml")
+
+    @RenderBody()
+
+    @RenderPage("~/Views/Shared/_Footer.cshtml")
+</div>
+</body>
+</html>
